@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movie Catalog</string>
+    <string name="movie_title">Movie</string>
+    <string name="tv_show_title">Tv Show</string>
+    <string name="favorite">Favorite</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="rating">Rating : </string>
+    <string name="release_date">Released :</string>
+    <string name="description">Description</string>
+    <string name="setting">Setting</string>
+    <string name="save">added to favorite</string>
+    <string name="remove">remove from favorite</string>
+    <string name="appwidget_text">Your Favorite Movie</string>
+    <string name="add_widget">Add widget</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="not_found">Data is Empty</string>
+    <string name="locale">Localization</string>
+    <string name="notification">Notification</string>
+
+    <string name="reminder_daily">reminder_daily</string>
+    <string name="reminder_upcoming">reminder_upcoming</string>
+    <string name="label_daily_reminder_on">Daily Reminder Notification is now active</string>
+    <string name="label_daily_reminder_off">Daily Reminder Notification is now not active</string>
+    <string name="label_upcoming_reminder_on">Upcoming Reminder Notification is now active</string>
+    <string name="label_upcoming_reminder_off">Upcoming Reminder Notification is now not active</string>
+    <string name="summary_daily_reminder">Turn On/Off daily reminder</string>
+    <string name="summary_upcoming_reminder">Turn On/Off upcoming reminder</string>
+    <string name="title_daily_reminder">Daily Reminder Notification</string>
+    <string name="title_upcoming_reminder">Upcoming Reminder Notification</string>
+    <string name="key_setting_locale">localization</string>
+    <string name="summary_locale">Choose configuration localization</string>
+    <string name="title_locale">Change Localization</string>
+
+</resources>

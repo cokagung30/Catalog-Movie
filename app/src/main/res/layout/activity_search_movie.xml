@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.SearchMovieActivity">
+
+    <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar_search_movie"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+    <com.miguelcatalan.materialsearchview.MaterialSearchView
+            android:id="@+id/search_movie_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <com.ogaclejapan.smarttablayout.SmartTabLayout
+            android:id="@+id/view_pager_tab_search"
+            android:layout_below="@id/toolbar_search_movie"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:paddingBottom="4dp"
+            android:background="@color/colorPrimary"
+            app:stl_defaultTabTextColor="@color/white"
+            app:stl_distributeEvenly="true"
+            app:stl_indicatorColor="@color/white"
+            app:stl_indicatorInterpolation="smart"
+            app:stl_indicatorThickness="3dp"
+            app:stl_defaultTabTextSize="14sp"
+            />
+
+    <androidx.viewpager.widget.ViewPager
+            android:id="@+id/view_pager_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/view_pager_tab_search"
+            />
+
+</RelativeLayout>
